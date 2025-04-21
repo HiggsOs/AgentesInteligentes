@@ -8,7 +8,7 @@ venv/
 
 # Ignorar modelos grandes o datos
 
-*.pt
+
 *.h5
 
 # Ignorar notebooks temporales o cache de Jupyter
