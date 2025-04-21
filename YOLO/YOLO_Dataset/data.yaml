@@ -1,5 +1,0 @@
-train: /home/higgsos/Escritorio/agentes/YOLO/YOLO_Dataset/train/images
-val: /home/higgsos/Escritorio/agentes/YOLO/YOLO_Dataset/val/images
-
-nc: 2
-names: ['Unhealthy', 'Healthy']
