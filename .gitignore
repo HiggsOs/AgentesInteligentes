@@ -7,13 +7,13 @@ env/
 venv/
 
 # Ignorar modelos grandes o datos
-runs/
+
 *.pt
 *.h5
 
 # Ignorar notebooks temporales o cache de Jupyter
 HolyBasilData/
-YOLO/
+
 
 # Ignorar archivos de sistema
 .DS_Store
