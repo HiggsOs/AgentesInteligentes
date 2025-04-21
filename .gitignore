@@ -1,0 +1,24 @@
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Ignorar entornos virtuales
+env/
+venv/
+
+# Ignorar modelos grandes o datos
+runs/
+*.pt
+*.h5
+
+# Ignorar notebooks temporales o cache de Jupyter
+HolyBasilData/
+YOLO/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración personales
+*.env
+*.log
