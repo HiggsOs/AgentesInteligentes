@@ -4,7 +4,7 @@ import base64
 from PIL import Image
 from io import BytesIO
 
-url = "http://localhost:8000/predict"
+url = "http://basilprediction.ddns.net:8000/predict"
 image_path = "/home/higgsos/.cache/kagglehub/datasets/csafrit2/plant-leaves-for-image-classification/versions/2/Plants_2/test/Bael diseased (P4b)/0016_0010.JPG"
 
 
