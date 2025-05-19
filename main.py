@@ -10,10 +10,7 @@ app = FastAPI()
 # === Cargar modelo y redefinir nombres ===
 modelo_path = "runs/detect/train2/weights/best.pt"
 model = YOLO(modelo_path)
-model.model.names = {
-    0: 'Unhealthy',
-    1: 'Healthy'
-}
+
 
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):
