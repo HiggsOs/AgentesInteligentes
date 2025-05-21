@@ -25,7 +25,7 @@ async def predict(file: UploadFile = File(...)):
         draw = ImageDraw.Draw(image)
 
         # Realizar inferencia usando PIL (¡no NumPy!)
-        results = model.predict(image, conf=0.25)
+        results = model.predict(image, conf=0.5)
         boxes = results[0].boxes
 
         # Procesar resultados
