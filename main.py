@@ -4,11 +4,15 @@ from ultralytics import YOLO
 from io import BytesIO
 from PIL import Image, ImageDraw
 import base64
+import os
 
+# Obtiene la ruta absoluta del archivo actual
+ruta_actual_archivo = os.path.abspath(__file__)
+directorio_actual = os.path.dirname(ruta_actual_archivo)
 app = FastAPI()
 
 # === Cargar modelo y redefinir nombres ===
-modelo_path = "runs/detect/train2/weights/best.pt"
+modelo_path = directorio_actual+"/best.pt"
 model = YOLO(modelo_path)
 
 
